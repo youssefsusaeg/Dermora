@@ -1,0 +1,254 @@
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding: 32px 24px;
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    rgba(240, 247, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.hero-section .trust-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #e6fffa;
+  border-radius: 100px;
+}
+
+.hero-section .shield {
+  position: relative;
+  width: 14px;
+  height: 14px;
+}
+
+.hero-section .vector {
+  position: absolute;
+  width: 90.47%;
+  height: 98.81%;
+  top: 0;
+  left: 9.53%;
+}
+
+.hero-section .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #2f855a;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.hero-section .hero-headline {
+  font-family: "Inter-Medium", Helvetica;
+  color: transparent;
+  font-size: 32px;
+  line-height: 42px;
+  position: relative;
+  align-self: stretch;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0;
+}
+
+.hero-section .span {
+  font-weight: 500;
+  color: #1a202c;
+}
+
+.hero-section .text-wrapper-2 {
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #0066cc;
+}
+
+.hero-section .hero-subheading {
+  font-family: "Inter-Regular", Helvetica;
+  color: #718096;
+  font-size: 15px;
+  line-height: 22px;
+  position: relative;
+  align-self: stretch;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0;
+}
+
+.hero-section .doctor-banner-card {
+  display: flex;
+  flex-direction: column;
+  height: 180px;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.2) 0%,
+    rgba(0, 0, 0, 0.2) 100%
+  );
+}
+
+.hero-section .live-indicator {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #00000066;
+  border-radius: 4px;
+}
+
+.hero-section .pulse-dot {
+  position: relative;
+  width: 6px;
+  height: 6px;
+  background-color: #38a169;
+  border-radius: 3px;
+}
+
+.hero-section .div {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.hero-section .doctor-details {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.hero-section .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.hero-section .p {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #e2e8f0;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.hero-section .cta-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 24px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #0066cc;
+  border-radius: 100px;
+  box-shadow: 0px 8px 16px #0066cc40;
+}
+
+.hero-section .button-content {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.hero-section .cta-text {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.hero-section .arrow-right {
+  position: relative;
+  width: 18px;
+  height: 18px;
+}
+
+.hero-section .img {
+  position: absolute;
+  width: 84.72%;
+  height: 84.73%;
+  top: 15.27%;
+  left: 15.28%;
+}
+
+.hero-section .rating-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.hero-section .stars {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.hero-section .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #1a202c;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.hero-section .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #718096;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
