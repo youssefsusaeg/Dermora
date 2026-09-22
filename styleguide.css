@@ -1,0 +1,16 @@
+:root {
+  --primary-blue: #0066cc;
+  --primary-blue-hover: #0052a3;
+  --light-blue-bg: #eaf2ff;
+  --badge-green-text: #059669;
+  --badge-green-bg: #ecfdf5;
+  --text-main: #0f172a;
+  --text-muted: #64748b;
+  --card-border: #e2e8f0;
+  --bg-white: #ffffff;
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-full: 9999px;
+}
